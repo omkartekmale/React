@@ -4,11 +4,16 @@
   "description": "",
   "scripts": {
     "start": "npx parcel index.html",
+    "build": "npx parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Omkar Tekmale",
   "license": "ISC",
   "devDependencies": {
     "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
   }
 }
